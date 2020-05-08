@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
+
+body{
+   background-image:url(images/color.jpg);
+   color:black;
+}
+
+header{
+	background-image:url(images/color.jpg);
+ 	font-family: 'Cormorant Garamond', serif;
+ 	height: 165px;
+ 	
+}
+
+nav{
+	font-family: 'Cormorant Garamond', serif;
+	background-image:url(images/color.jpg); 
+	padding: .1px 5px .1px 5px;
+
+}
+
+nav ul{
+  list-style-type: none;
+  margin-top: 32px;
+
+}
+nav li{
+display: inline-block;
+border-radius: 50%;
+background-color: pink;
+padding: 40px 10px;
+height: 100px;
+width:100px;
+margin-left: 20px;
+text-align:center;
+}
+nav li:hover{
+	background-color:#82497c !important;
+}
+nav a{
+   text-decoration: none !important;
+
+ }
+
+nav a:link{ 
+	color:#ad039b; 
+}
+nav a:visited{ 
+	color:#57044e; 
+}
+nav a:hover{
+	background-color:#82497c !important;
+	color:white;
+}
+nav a:active{
+	color:#000000;
+}
+
+main{
+	max-width: 1200px;
+	padding: 0 15px 0 15px;
+	margin: auto;
+}
+
+footer{
+	font-family: 'Cormorant Garamond', serif;
+	color:black;
+	font-style:;
+	text-align: center; 
+	
+	padding:5px 5px 5px 5px;
+
+}
+
+
+
+}
+
+h1{
+	line-height: 100%;
+	 font-family: 'Cormorant Garamond', serif;
+	 margin:0;
+}
+
+h2{
+	text-shadow: 3px 4px 6px purple;
+	color:black;
+	font-family: 'Cormorant Garamond', serif;;
+	
+
+}
+
+p{
+	font-size: 1.1em;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+ul{
+	font-family: 'Cormorant Garamond', serif
+}
+
+.logo{
+float:left;
+
+}
+
+
+.clear{
+	clear:both;
+}
+
+
+
+.headline{
+	padding-top: 30px; 
+	color:black;
+	text-shadow: 3px 4px 6px purple;
+
+	
+
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/* css for tablets */
+@media only screen and (max-wid: 1024px){
+ 
+	h1{
+			font-size: 1.8em;
+	}
+
+}
+
+/* css for smartphones */
+@media only screen and (max-wid: 768px){
+
+	h1{
+		font-size: 1.5em;
+	}
+	
+}
